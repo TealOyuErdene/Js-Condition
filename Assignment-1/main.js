@@ -44,28 +44,28 @@ else(
 const day = prompt('Enter your week')
 
 if(+day === 1){
-    alert('it\'s a Monday')
+    console.log('it\'s a Monday')
 }
 else if(+day === 2){
-    alert('it\'s a Tuesday')
+    console.log('it\'s a Tuesday')
 }
  else if(+day === 3){
-    alert('it\'s a Wednesday')
+     console.log('it\'s a Wednesday')
 }
 else if(+day === 4){
-    alert('it\'s a Thursday')
+     console.log('it\'s a Thursday')
 }
 else if(+day === 5){
-    alert('it\'s a Friday')
+     console.log('it\'s a Friday')
 }
 else if(+day === 6){
-    alert('it\'s a Saturday')
+     console.log('it\'s a Saturday')
 }
 else if(+day === 7){
-    alert('it\'s a Sunday')
+     console.log('it\'s a Sunday')
 }
 else{
-    alert('Value is incorrect')
+     console.log('Value is incorrect')
 }
 
 
